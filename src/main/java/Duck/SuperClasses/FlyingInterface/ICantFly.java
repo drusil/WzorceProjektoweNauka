@@ -1,9 +1,9 @@
-package SuperClasses.FlyingInterface;
+package Duck.SuperClasses.FlyingInterface;
 
 public class ICantFly implements FlyingInterface {
 
-    @Override
-    public void fly() {
-        System.out.println("I can't fly");
-    }
+  @Override
+  public void fly() {
+    System.out.println("I can't fly");
+  }
 }

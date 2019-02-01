@@ -1,3 +1,5 @@
+package Adapter;
+
 public class DzikiIndyk implements Indyk {
   @Override
   public void gulgocz() {

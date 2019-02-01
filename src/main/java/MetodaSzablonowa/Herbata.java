@@ -1,18 +1,19 @@
-public class Herbata extends NapójZKofeiną{
+package MetodaSzablonowa;
+
+public class Herbata extends NapójZKofeiną {
 
 
+  @Override
+  void zaparzanie() {
+    System.out.println("Wkładnie torebki do filiżanki");
 
-    @Override
-    void zaparzanie() {
-        System.out.println("Wkładnie torebki do filiżanki");
+  }
 
-    }
+  @Override
+  void domieszanieDodatków() {
+    System.out.println("Dodawanie cytryny");
 
-    @Override
-    void domieszanieDodatków() {
-        System.out.println("Dodawanie cytryny");
-
-    }
+  }
 
 
 }

@@ -1,6 +1,6 @@
-package WeaponInterface;
+package Characters.WeaponInterface;
 
-public class BowAndArrowsBehavior implements WeaponInterface.WeaponInterface {
+public class BowAndArrowsBehavior implements WeaponInterface {
     @Override
     public void useWeapon() {
 

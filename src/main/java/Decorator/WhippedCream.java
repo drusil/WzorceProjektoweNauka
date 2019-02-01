@@ -1,18 +1,21 @@
+package Decorator;
+
+
 public class WhippedCream extends DecoratorIngredient {
 
-    Drink drink;
+  Drink drink;
 
-    public WhippedCream(Drink drink) {
-        this.drink = drink;
-    }
+  public WhippedCream(Drink drink) {
+    this.drink = drink;
+  }
 
-    @Override
-    public String getDiscription() {
-        return drink.getDiscription() + ", Whipped Cream";
-    }
+  @Override
+  public String getDiscription() {
+    return drink.getDiscription() + ", Whipped Cream";
+  }
 
-    @Override
-    public double cost() {
-        return drink.cost() + 0.10;
-    }
+  @Override
+  public double cost() {
+    return drink.cost() + 0.10;
+  }
 }

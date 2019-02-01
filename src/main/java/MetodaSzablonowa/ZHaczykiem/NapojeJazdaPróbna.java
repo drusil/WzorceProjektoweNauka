@@ -1,4 +1,4 @@
-package ZHaczykiem;
+package MetodaSzablonowa.ZHaczykiem;
 
 public class NapojeJazdaPróbna {
 

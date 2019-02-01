@@ -1,6 +1,6 @@
-package WeaponInterface;
+package Characters.WeaponInterface;
 
 public interface WeaponInterface {
 
-    public void useWeapon();
+  public void useWeapon();
 }

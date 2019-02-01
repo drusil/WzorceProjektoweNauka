@@ -1,13 +1,13 @@
-package Ducks;
+package Duck.Ducks;
 
-import SuperClasses.Duck;
-import SuperClasses.FlyingInterface.IHaveWingsSoIFly;
-import SuperClasses.QuackInterface.Quack;
+import Duck.SuperClasses.Duck;
+import Duck.SuperClasses.FlyingInterface.IHaveWingsSoIFly;
+import Duck.SuperClasses.QuackInterface.Quack;
 
 public class WildDuck extends Duck {
 
 
-    public WildDuck() {
-     super(new IHaveWingsSoIFly(), new Quack());
-    }
+  public WildDuck() {
+    super(new IHaveWingsSoIFly(), new Quack());
+  }
 }

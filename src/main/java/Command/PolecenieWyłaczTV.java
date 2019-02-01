@@ -1,3 +1,5 @@
+package Command;
+
 public class PolecenieWyłaczTV implements Polecenie{
     TV telewizor;
 

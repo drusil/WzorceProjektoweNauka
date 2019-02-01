@@ -1,3 +1,5 @@
+package Command;
+
 public class PolecenieWyłaczWentylatorSufitowy implements Polecenie {
 
     WentylatorSufitowy wentylatorSufitowy;

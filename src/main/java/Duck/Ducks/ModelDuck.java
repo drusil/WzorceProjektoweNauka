@@ -1,13 +1,12 @@
-package Ducks;
+package Duck.Ducks;
 
-import SuperClasses.Duck;
-import SuperClasses.FlyingInterface.FlyWithRocketEngine;
-import SuperClasses.FlyingInterface.FlyingInterface;
-import SuperClasses.QuackInterface.QuackInterface;
-import SuperClasses.QuackInterface.Silent;
+
+import Duck.SuperClasses.Duck;
+import Duck.SuperClasses.FlyingInterface.FlyWithRocketEngine;
+import Duck.SuperClasses.QuackInterface.Silent;
 
 public class ModelDuck extends Duck {
-    public ModelDuck() {
-        super(new FlyWithRocketEngine(), new Silent());
-    }
+  public ModelDuck() {
+    super(new FlyWithRocketEngine(), new Silent());
+  }
 }

@@ -1,11 +1,13 @@
+package Command;
+
 public class DrzwiGarażowe {
-    public void doGóry() {
+  public void doGóry() {
     System.out.println("Drzwi otwierają się");
-       }
+  }
 
-    public void naDół() {
+  public void naDół() {
 
-        System.out.println("Drzwi zamykają się");
+    System.out.println("Drzwi zamykają się");
 
-    }
+  }
 }

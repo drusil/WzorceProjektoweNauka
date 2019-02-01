@@ -1,3 +1,5 @@
+package Factory;
+
 public abstract class Pizzeria {
 
     public Pizza zamówPizze(String type){

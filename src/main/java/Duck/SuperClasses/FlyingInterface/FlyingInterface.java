@@ -1,8 +1,8 @@
-package SuperClasses.FlyingInterface;
+package Duck.SuperClasses.FlyingInterface;
 
 public interface FlyingInterface {
 
 
-    public void fly();
+  public void fly();
 
 }

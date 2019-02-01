@@ -1,22 +1,23 @@
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+package MetodaSzablonowa;
 
 public abstract class NapójZKofeiną {
 
-    final void recepturaParzenia(){
-        gotowanieWody();
-        zaparzanie();
-        nalewanieDoFiliżanki();
-        domieszanieDodatków();
-    }
+  final void recepturaParzenia() {
+    gotowanieWody();
+    zaparzanie();
+    nalewanieDoFiliżanki();
+    domieszanieDodatków();
+  }
 
-    abstract void zaparzanie();
-    abstract void domieszanieDodatków();
+  abstract void zaparzanie();
 
-    void gotowanieWody(){
-        System.out.println("Gotowanie wody");
-    }
+  abstract void domieszanieDodatków();
 
-    void nalewanieDoFiliżanki(){
-        System.out.println("Nalewanie do filiżanki");
-    }
+  void gotowanieWody() {
+    System.out.println("Gotowanie wody");
+  }
+
+  void nalewanieDoFiliżanki() {
+    System.out.println("Nalewanie do filiżanki");
+  }
 }

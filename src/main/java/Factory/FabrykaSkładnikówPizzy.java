@@ -1,3 +1,5 @@
+package Factory;
+
 public interface FabrykaSkładnikówPizzy {
 
     public Ciasto createCiasto();

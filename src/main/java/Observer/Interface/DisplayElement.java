@@ -1,5 +1,5 @@
-package Interface;
+package Observer.Interface;
 
 public interface DisplayElement {
-    public void display();
+  public void display();
 }

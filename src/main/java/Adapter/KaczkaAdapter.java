@@ -1,3 +1,5 @@
+package Adapter;
+
 import java.util.Random;
 
 public class KaczkaAdapter implements Indyk {

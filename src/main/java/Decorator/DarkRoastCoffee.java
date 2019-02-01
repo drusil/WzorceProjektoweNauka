@@ -1,10 +1,12 @@
-public class DarkRoastCoffee extends Drink {
-    public DarkRoastCoffee() {
-        discription = "Dark Roast Coffee";
-    }
+package Decorator;
 
-    @Override
-    public double cost() {
-        return 0.99;
-    }
+public class DarkRoastCoffee extends Drink {
+  public DarkRoastCoffee() {
+    discription = "Dark Roast Coffee";
+  }
+
+  @Override
+  public double cost() {
+    return 0.99;
+  }
 }

@@ -1,3 +1,5 @@
+package Adapter;
+
 public class IndykAdapter implements Kaczka {
   Indyk indyk;
 

@@ -1,3 +1,6 @@
+package Adapter;
+
+
 public class TestowanieKaczki {
 
   public static void main(String[] args) {

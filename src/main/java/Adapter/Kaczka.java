@@ -1,3 +1,5 @@
+package Adapter;
+
 public interface Kaczka {
   public void kawacz();
 

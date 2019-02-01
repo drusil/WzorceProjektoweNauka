@@ -1,6 +1,6 @@
-package AbstractClasses;
+package Characters.AbstractClasses;
 
-import WeaponInterface.WeaponInterface;
+import Characters.WeaponInterface.WeaponInterface;
 
 public class GameCharacter {
     WeaponInterface weaponInterface;

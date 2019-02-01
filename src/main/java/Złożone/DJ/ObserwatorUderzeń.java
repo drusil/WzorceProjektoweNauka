@@ -1,6 +1,6 @@
-package DJ;
+package Złożone.DJ;
 
 public class ObserwatorUderzeń {
-    public void aktualizujBeat() {
-    }
+  public void aktualizujBeat() {
+  }
 }

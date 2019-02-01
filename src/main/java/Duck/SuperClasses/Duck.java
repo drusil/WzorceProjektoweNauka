@@ -1,36 +1,37 @@
-package SuperClasses;
+package Duck.SuperClasses;
 
-import SuperClasses.FlyingInterface.FlyingInterface;
-import SuperClasses.QuackInterface.QuackInterface;
+import Duck.SuperClasses.FlyingInterface.FlyingInterface;
+import Duck.SuperClasses.QuackInterface.QuackInterface;
+
 
 public class Duck {
 
-    FlyingInterface flyingInterface;
-    QuackInterface quackInterface;
+  FlyingInterface flyingInterface;
+  QuackInterface quackInterface;
 
-    public Duck(FlyingInterface flyingInterface, QuackInterface quackInterface) {
-        this.flyingInterface = flyingInterface;
-        this.quackInterface = quackInterface;
-    }
+  public Duck(FlyingInterface flyingInterface, QuackInterface quackInterface) {
+    this.flyingInterface = flyingInterface;
+    this.quackInterface = quackInterface;
+  }
 
-    public void fly() {
-        flyingInterface.fly();
+  public void fly() {
+    flyingInterface.fly();
 
-    }
+  }
 
-    public void quack(){
-        quackInterface.quack();
-    }
+  public void quack() {
+    quackInterface.quack();
+  }
 
-    public void setFlyingInterface(FlyingInterface flyingInterface) {
-        this.flyingInterface = flyingInterface;
-    }
+  public void setFlyingInterface(FlyingInterface flyingInterface) {
+    this.flyingInterface = flyingInterface;
+  }
 
-    public void setQuackInterface(QuackInterface quackInterface) {
-        this.quackInterface = quackInterface;
-    }
+  public void setQuackInterface(QuackInterface quackInterface) {
+    this.quackInterface = quackInterface;
+  }
 
-    public void description(){
-        System.out.println(this.getClass().getName());
-    }
+  public void description() {
+    System.out.println(this.getClass().getName());
+  }
 }

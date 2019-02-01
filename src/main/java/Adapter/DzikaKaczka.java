@@ -1,3 +1,5 @@
+package Adapter;
+
 public class DzikaKaczka implements Kaczka {
   @Override
   public void kawacz() {

@@ -1,12 +1,12 @@
-package Ducks;
+package Duck.Ducks;
 
-import SuperClasses.Duck;
-import SuperClasses.FlyingInterface.ICantFly;
-import SuperClasses.QuackInterface.Squick;
+import Duck.SuperClasses.FlyingInterface.ICantFly;
+import Duck.SuperClasses.Duck;
+import Duck.SuperClasses.QuackInterface.Squick;
 
 public class RubberDuck extends Duck {
 
-    public RubberDuck() {
-        super(new ICantFly(), new Squick());
-    }
+  public RubberDuck() {
+    super(new ICantFly(), new Squick());
+  }
 }

@@ -1,17 +1,19 @@
+package Command;
+
 public class PolecenieWłaczWentylatorSufitowy implements Polecenie {
-    WentylatorSufitowy wentylatorSufitowy;
+  WentylatorSufitowy wentylatorSufitowy;
 
-    public PolecenieWłaczWentylatorSufitowy(WentylatorSufitowy wentylatorSufitowy) {
-        this.wentylatorSufitowy = wentylatorSufitowy;
-    }
+  public PolecenieWłaczWentylatorSufitowy(WentylatorSufitowy wentylatorSufitowy) {
+    this.wentylatorSufitowy = wentylatorSufitowy;
+  }
 
-    @Override
-    public void wykonaj() {
-        wentylatorSufitowy.wysokieOborty();
-    }
+  @Override
+  public void wykonaj() {
+    wentylatorSufitowy.wysokieOborty();
+  }
 
-    @Override
-    public void wycofaj() {
-        wentylatorSufitowy.wyłacz();
-    }
+  @Override
+  public void wycofaj() {
+    wentylatorSufitowy.wyłacz();
+  }
 }

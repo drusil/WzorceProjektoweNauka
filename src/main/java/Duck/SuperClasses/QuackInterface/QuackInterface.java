@@ -1,6 +1,6 @@
-package SuperClasses.QuackInterface;
+package Duck.SuperClasses.QuackInterface;
 
 public interface QuackInterface {
 
-    public void quack();
+  public void quack();
 }

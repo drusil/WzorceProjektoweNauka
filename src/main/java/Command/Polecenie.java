@@ -1,4 +1,7 @@
+package Command;
+
 public interface Polecenie {
-    public void wykonaj();
-    public void wycofaj();
+  public void wykonaj();
+
+  public void wycofaj();
 }

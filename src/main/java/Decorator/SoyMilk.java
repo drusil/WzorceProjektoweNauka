@@ -1,18 +1,21 @@
+package Decorator;
+
+
 public class SoyMilk extends DecoratorIngredient {
 
-    Drink drink;
+  Drink drink;
 
-    public SoyMilk(Drink drink) {
-        this.drink = drink;
-    }
+  public SoyMilk(Drink drink) {
+    this.drink = drink;
+  }
 
-    @Override
-    public String getDiscription() {
-        return drink.getDiscription() + ", Soy Milk";
-    }
+  @Override
+  public String getDiscription() {
+    return drink.getDiscription() + ", Soy Milk";
+  }
 
-    @Override
-    public double cost() {
-        return drink.cost() + 0.15;
-    }
+  @Override
+  public double cost() {
+    return drink.cost() + 0.15;
+  }
 }

@@ -1,3 +1,5 @@
+package Factory;
+
 public class AmerykańskaSerowaPizza extends Pizza {
     public AmerykańskaSerowaPizza() {
         name = "Amerykańska Pizza Serowa";

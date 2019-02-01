@@ -1,9 +1,12 @@
-import Ducks.ModelDuck;
-import Ducks.RubberDuck;
-import Ducks.WildDuck;
-import SuperClasses.FlyingInterface.ICantFly;
-import SuperClasses.FlyingInterface.IHaveWingsSoIFly;
-import SuperClasses.QuackInterface.Quack;
+package Duck;
+
+
+import Duck.Ducks.ModelDuck;
+import Duck.Ducks.RubberDuck;
+import Duck.Ducks.WildDuck;
+import Duck.SuperClasses.FlyingInterface.ICantFly;
+import Duck.SuperClasses.FlyingInterface.IHaveWingsSoIFly;
+import Duck.SuperClasses.QuackInterface.Quack;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,14 +1,16 @@
+package Command;
+
 public class MiniPilot {
-    Polecenie slot;
+  Polecenie slot;
 
-    public MiniPilot() {
-    }
+  public MiniPilot() {
+  }
 
-    public void ustawPolecenie(Polecenie polecenie) {
-        this.slot = polecenie;
-    }
+  public void ustawPolecenie(Polecenie polecenie) {
+    this.slot = polecenie;
+  }
 
-    public void przyciskZostałNacisnięty(){
-        slot.wykonaj();
-    }
+  public void przyciskZostałNacisnięty() {
+    slot.wykonaj();
+  }
 }

@@ -1,6 +1,6 @@
-package DJ;
+package Złożone.DJ;
 
 public class ObserwatorBPM {
-    public void aktualizujBMP() {
-    }
+  public void aktualizujBMP() {
+  }
 }

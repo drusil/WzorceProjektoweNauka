@@ -1,18 +1,20 @@
+package Decorator;
+
 public class Milk extends DecoratorIngredient {
 
-    Drink drink;
+  Drink drink;
 
-    public Milk(Drink drink) {
-        this.drink = drink;
-    }
+  public Milk(Drink drink) {
+    this.drink = drink;
+  }
 
-    @Override
-    public String getDiscription() {
-        return drink.getDiscription() + ", Milk";
-    }
+  @Override
+  public String getDiscription() {
+    return drink.getDiscription() + ", Milk";
+  }
 
-    @Override
-    public double cost() {
-        return drink.cost() + 0.10;
-    }
+  @Override
+  public double cost() {
+    return drink.cost() + 0.10;
+  }
 }

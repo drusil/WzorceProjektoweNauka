@@ -1,18 +1,20 @@
-public class PolecenieZamknijDrzwiGarażowe implements Polecenie{
+package Command;
 
-    DrzwiGarażowe drzwiGarażowe;
+public class PolecenieZamknijDrzwiGarażowe implements Polecenie {
 
-    public PolecenieZamknijDrzwiGarażowe(DrzwiGarażowe drzwiGarażowe) {
-        this.drzwiGarażowe = drzwiGarażowe;
-    }
+  DrzwiGarażowe drzwiGarażowe;
 
-    @Override
-    public void wykonaj() {
-        drzwiGarażowe.naDół();
-    }
+  public PolecenieZamknijDrzwiGarażowe(DrzwiGarażowe drzwiGarażowe) {
+    this.drzwiGarażowe = drzwiGarażowe;
+  }
 
-    @Override
-    public void wycofaj() {
-        drzwiGarażowe.doGóry();
-    }
+  @Override
+  public void wykonaj() {
+    drzwiGarażowe.naDół();
+  }
+
+  @Override
+  public void wycofaj() {
+    drzwiGarażowe.doGóry();
+  }
 }

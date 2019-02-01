@@ -1,28 +1,28 @@
-package AutomanZeStanem;
+package Stan.AutomanZeStanem;
 
 public class AutomatSprzedającyTest {
-    public static void main(String[] args) {
-        AutomatSprzedający automatSprzedający = new AutomatSprzedający(15);
+  public static void main(String[] args) {
+    AutomatSprzedający automatSprzedający = new AutomatSprzedający(15+"",10);
 
-        System.out.println(automatSprzedający);
+    System.out.println(automatSprzedający);
 
-        automatSprzedający.włózMonetę();
-        automatSprzedający.zwrócMonetę();
-        automatSprzedający.włózMonetę();
+    automatSprzedający.włózMonetę();
+    automatSprzedający.zwrócMonetę();
+    automatSprzedający.włózMonetę();
 
-        automatSprzedający.przekręcGałkę();
+    automatSprzedający.przekręcGałkę();
 
-        System.out.println(automatSprzedający);
+    System.out.println(automatSprzedający);
 
-        automatSprzedający.włózMonetę();
-        automatSprzedający.przekręcGałkę();
-        automatSprzedający.włózMonetę();
+    automatSprzedający.włózMonetę();
+    automatSprzedający.przekręcGałkę();
+    automatSprzedający.włózMonetę();
 
-        automatSprzedający.napełnij(2);
+    automatSprzedający.napełnij(2);
 
 
-        automatSprzedający.przekręcGałkę();
-        automatSprzedający.włózMonetę();
-        automatSprzedający.przekręcGałkę();
-    }
+    automatSprzedający.przekręcGałkę();
+    automatSprzedający.włózMonetę();
+    automatSprzedający.przekręcGałkę();
+  }
 }

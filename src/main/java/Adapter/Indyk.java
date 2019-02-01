@@ -1,3 +1,5 @@
+package Adapter;
+
 public interface Indyk {
   public void gulgocz();
 
